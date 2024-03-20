@@ -354,7 +354,13 @@ body {
   background-color: transparent;
   color: #396DF2;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
   text-decoration: none;
+}
+
+.button_info:hover {
+  background-color: #13828a; 
+  color: #fff; 
 }
 
 
@@ -545,6 +551,14 @@ body {
   border-radius: 10px;
   font-size: 17px;
   color: #6070ff;
+  cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 
+.submit_button:hover {
+  background-color: #646464;
+  color: #ffffff; 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
