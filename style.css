@@ -18,20 +18,19 @@ body {
 }
 
 
-#work_part {
-   
-}
+#work_part {}
 
-.backgroundcolor{
-  
+.backgroundcolor {
+
   background-color: #ececec;
   opacity: 0.9;
   padding-bottom: 1mm;
   padding-top: 1mm;
   border-radius: 20px;
 
-  
+
 }
+
 .navbar-left {
   font-family: Poppins, sans-serif;
   font-size: 18px;
@@ -63,7 +62,7 @@ body {
 .hero-title {
   font-family: Poppins, sans-serif;
   font-size: 40px;
-  
+
   line-height: 52px;
 
   text-align: left;
@@ -75,7 +74,7 @@ body {
   margin-left: 15px;
 }
 
-.hero-title h3{
+.hero-title h3 {
   padding-top: 8px;
   margin: 0%;
 }
@@ -123,49 +122,49 @@ body {
 /*Work part*/
 .proj_cards {
   background-color: #ffffff;
- height: 700px;
+  height: 700px;
   margin: 100px 7px;
   border-radius: 20px;
   display: grid;
 
-   border: 3px solid rgb(255, 255, 255); 
+  border: 3px solid rgb(255, 255, 255);
   gap: 1px;
   grid-template-areas: 'header header header' 'description description description' 'footer footer footer';
 }
 
 .proj_cards2 {
   background-color: #ffffff;
- height: 700px;
+  height: 700px;
   margin: 100px 7px;
   border-radius: 20px;
   display: grid;
-  
 
-   border: 3px solid rgb(255, 255, 255); 
+
+  border: 3px solid rgb(255, 255, 255);
   gap: 1px;
   grid-template-areas: 'header header header' 'description description description' 'footer footer footer';
 }
 
 .proj_cards3 {
   background-color: #ffffff;
- height: 700px;
+  height: 700px;
   margin: 100px 7px;
   border-radius: 20px;
   display: grid;
 
-   border: 3px solid rgb(255, 255, 255); 
+  border: 3px solid rgb(255, 255, 255);
   gap: 1px;
   grid-template-areas: 'header header header' 'description description description' 'footer footer footer';
 }
 
 .proj_cards4 {
   background-color: #ffffff;
- height: 730px;
+  height: 730px;
   margin: 100px 7px;
   border-radius: 20px;
   display: grid;
 
-   border: 3px solid rgb(255, 255, 255); 
+  border: 3px solid rgb(255, 255, 255);
   gap: 1px;
   grid-template-areas: 'header header header' 'description description description' 'footer footer footer';
 }
@@ -177,18 +176,18 @@ body {
 }
 
 .proj_header {
-  
+
   grid-area: header;
   padding: 20px 20px 10px;
   height: 100%;
 }
 
 .proj_card_img {
- 
+
   display: flex;
   width: 100%;
   height: 80%;
- 
+
   justify-content: center;
   align-items: center;
   background-color: #fa9c66;
@@ -196,11 +195,11 @@ body {
 }
 
 .proj_card_img2 {
-  
+
   display: flex;
   width: 100%;
   height: 80%;
- 
+
   justify-content: center;
   align-items: center;
   background-color: #eedbd0;
@@ -208,11 +207,11 @@ body {
 }
 
 .proj_card_img3 {
-  
+
   display: flex;
   width: 100%;
   height: 80%;
- 
+
   justify-content: center;
   align-items: center;
   background-color: #d15e1b;
@@ -224,14 +223,14 @@ body {
   display: flex;
   width: 100%;
   height: 80%;
- 
+
   justify-content: center;
   align-items: center;
-  
+
   border-radius: 8px;
 }
 
-.proj_img_pad{
+.proj_img_pad {
   width: 85%;
   height: 90%;
   padding: 15px;
@@ -246,7 +245,7 @@ body {
   font-family: Poppins, sans-serif;
   grid-area: description;
   padding: 10px;
- 
+
 }
 
 .proj_card_title {
@@ -261,7 +260,7 @@ body {
 .proj_card_title_txt {
 
   width: 100%;
-  
+
   font-family: Poppins, sans-serif;
   padding-left: 12px;
   font-size: 32px;
@@ -282,7 +281,7 @@ body {
 
 .subtitle_l {
   font-family: Poppins, sans-serif;
-  
+
   list-style: none;
   font-size: 13px;
   margin-top: 7px;
@@ -290,14 +289,14 @@ body {
 }
 
 .subtitle_2 {
- 
+
   font-size: 13px;
   opacity: 0.7;
 }
 
 .subtitle_2::marker {
   font-family: Poppins, sans-serif;
-  
+
   font-size: 20px;
   opacity: 0.7;
 }
@@ -308,7 +307,7 @@ body {
   margin-top: 10px;
   padding-left: 4px;
 
- 
+
 }
 
 
@@ -316,11 +315,11 @@ body {
   font-family: Poppins, sans-serif;
   width: 100%;
   margin-top: 20px;
-  padding-left: 25px;
+
 }
 
 .Box_button_info {
- 
+
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -329,7 +328,7 @@ body {
 }
 
 .Box_button_items {
-  
+
   text-decoration: none;
   padding: 4px 12px;
   background-color: #d9d9f5;
@@ -343,7 +342,7 @@ body {
 
   width: 100%;
   height: 100px;
-  
+
   display: flex;
   padding-left: 14px;
   justify-content: flex-start;
@@ -353,7 +352,7 @@ body {
 
 .button_info {
   padding: 10px;
- border: 1px solid #6070FF;
+  border: 1px solid #6070FF;
   border-radius: 12px;
   font-size: 17px;
   background-color: transparent;
@@ -364,14 +363,14 @@ body {
 }
 
 .button_info:hover {
-  background-color: #13828a; 
-  color: #fff; 
+  background-color: #13828a;
+  color: #fff;
 }
 
 
 /*About Myself part*/
 .about_part {
- 
+
   width: 100%;
   margin: 2px;
   background-color: #fff;
@@ -380,7 +379,7 @@ body {
 }
 
 .about_part_title {
-  
+
   padding: 40px 24px 0;
 }
 
@@ -393,7 +392,7 @@ body {
 
 .about_paragraph_box {
   font-family: Poppins, sans-serif;
-  
+
   margin: 10px;
 }
 
@@ -402,8 +401,8 @@ body {
   margin: 10px 16px;
 }
 
-.about_dropdown{
- 
+.about_dropdown {
+
   display: flex;
   flex-direction: row;
   padding: 10px 0 20px 0;
@@ -450,7 +449,7 @@ body {
   background-color: #f7f7f9;
   list-style: none;
   border-radius: 10px;
-  
+
 }
 
 .language_img_box {
@@ -485,7 +484,7 @@ body {
 
 /*Contact Form  part*/
 .form_box {
-  
+
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -525,7 +524,7 @@ body {
 .form_fields {
   margin-top: 50px;
 
- 
+
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -558,15 +557,15 @@ body {
   font-size: 17px;
   color: #6070ff;
   cursor: pointer;
-    transition: all 0.3s ease; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
 .submit_button:hover {
   background-color: #646464;
-  color: #ffffff; 
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+  color: #ffffff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -574,37 +573,38 @@ body {
 
 @media only screen and (min-width: 992px) {
   body {
-    width: 1397.4px; 
-    margin: 722px; 
-    overflow-x: hidden; 
+    width: 1397.4px;
+    margin: 722px;
+    overflow-x: hidden;
     border-bottom-left-radius: 160px;
   }
-  
+
   .menu-icon {
-  display: none;
-  } 
+    display: none;
+  }
 
   .navbar {
-    max-width: 100%; 
-    padding: 0 20px; 
+    max-width: 100%;
+    padding: 0 20px;
   }
 
   .hero {
-    width: 100%; 
-    max-width: none; 
-    height: auto; 
-    background-image: url("Assets/Header\ bg.svg"); /* Use desktop background image */
-    background-position: center; 
+    width: 100%;
+    max-width: none;
+    height: auto;
+    background-image: url("Assets/Header\ bg.svg");
+    /* Use desktop background image */
+    background-position: center;
     padding: 200px 20px;
-    gap: 20px; 
+    gap: 20px;
   }
 
   .hero-title,
   .hero-content,
   .hero-connect {
-    width: 100%; 
-    max-width: 800px; 
-    margin: 0 auto; 
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   .social-icons {
@@ -614,11 +614,103 @@ body {
     padding-left: 280px;
   }
 
+
+  /*work part*/
+
   .backgroundcolor {
-    
+
     margin-left: 50px;
   }
 
-  
+  .proj_cards,
+  .proj_cards2,
+  .proj_cards3,
+  .proj_cards4 {
+
+    padding: 0px 100px;
+    height: 550px;
   }
 
+
+  .proj_card_img {
+    background-image: url('Assets/web1.png');
+    width: 544px;
+    height: 448px;
+    margin: 0%;
+    margin-right: 750px;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .proj_card_img2 {
+    background-image: url('Assets/web2.png');
+    width: 544px;
+    height: 448px;
+    margin: 0%;
+    margin-left: 600px;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .proj_card_img3 {
+    background-image: url('Assets/web3.png');
+    width: 544px;
+    height: 448px;
+    margin: 0%;
+    margin-right: 750px;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .proj_card_img4 {
+    background-image: url('Assets/web5.png');
+    width: 544px;
+    height: 448px;
+    margin: 0%;
+    margin-left: 600px;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .proj_img_pad {
+    display: none;
+  }
+
+  .card-content1 {
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+
+  .card-content2 {
+    margin-right: 650px;
+
+  }
+
+  .proj_card_info2 {
+    height: 100px;
+  }
+
+  .paragraph_info {
+    font-size: 16px;
+  }
+
+  .button_info1 {
+    padding: 10px;
+    border: none;
+    background-color: #4053FC;
+    border-radius: 12px;
+    font-size: 17px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .button_info1:hover {
+    background-color: #3b49db;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+}
