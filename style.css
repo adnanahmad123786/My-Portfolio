@@ -711,6 +711,50 @@ body {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
   }
 
+  #about_myself{
+    padding-left: 70px;
+    width: 100%;
+    top: 2510px;
+    height: 524px;
+  }
 
+  .about_part{
+    display: flex;
+  }
+
+  .about-items-a
+  {
+    width: 50%;
+        flex-grow: 1;
+  }
+
+  .about-items-b{
+    width: 50%;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin: 50px 100px 0 0;
+  }
+
+  .language_main_box{
+    flex-direction: column;
+  }
+
+  .language{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dropdown_arrow1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 28.5px;
+    right: 10px;
+    background-color: #6171ff;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%, 50% 50%);
+    transform: rotate(90deg);
+  }
+
+  
 
 }
