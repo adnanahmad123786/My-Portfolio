@@ -63,9 +63,9 @@ body {
 .hero-title {
   font-family: Poppins, sans-serif;
   font-size: 40px;
-  font-weight: 700;
+  
   line-height: 52px;
-  letter-spacing: 0;
+
   text-align: left;
   color: rgba(23, 43, 77, 1);
   top: 92px;
@@ -73,6 +73,11 @@ body {
   height: 235px;
   position: relative;
   margin-left: 15px;
+}
+
+.hero-title h3{
+  padding-top: 8px;
+  margin: 0%;
 }
 
 .hero-content {
@@ -445,6 +450,7 @@ body {
   background-color: #f7f7f9;
   list-style: none;
   border-radius: 10px;
+  
 }
 
 .language_img_box {
@@ -564,4 +570,55 @@ body {
 }
 
 
-/*adding media queries for desktop version*/
+/*desktop version*/
+
+@media only screen and (min-width: 992px) {
+  body {
+    width: 1397.4px; 
+    margin: 722px; 
+    overflow-x: hidden; 
+    border-bottom-left-radius: 160px;
+  }
+  
+  .menu-icon {
+  display: none;
+  } 
+
+  .navbar {
+    max-width: 100%; 
+    padding: 0 20px; 
+  }
+
+  .hero {
+    width: 100%; 
+    max-width: none; 
+    height: auto; 
+    background-image: url("Assets/Header\ bg.svg"); /* Use desktop background image */
+    background-position: center; 
+    padding: 200px 20px;
+    gap: 20px; 
+  }
+
+  .hero-title,
+  .hero-content,
+  .hero-connect {
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+
+  .social-icons {
+    font-size: 20px;
+    text-align: left;
+    width: 820px;
+    padding-left: 280px;
+  }
+
+  .backgroundcolor {
+    
+    margin-left: 50px;
+  }
+
+  
+  }
+
