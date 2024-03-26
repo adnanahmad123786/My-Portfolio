@@ -593,7 +593,7 @@ body {
     max-width: none;
     height: auto;
     background-image: url("Assets/Header\ bg.svg");
-    /* Use desktop background image */
+   
     background-position: center;
     padding: 200px 20px;
     gap: 20px;
@@ -711,6 +711,8 @@ body {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
   }
 
+  /*about myself part*/
+
   #about_myself{
     padding-left: 70px;
     width: 100%;
@@ -755,6 +757,55 @@ body {
     transform: rotate(90deg);
   }
 
-  
+  .link{
+    font-size: large;
+    padding-left: 15px;
+  }
 
+  /*contact form part*/
+  .form_box{
+    background-image: url("Assets/contactweb.svg");
+    background-image: url("Assets/contactweb2.png");
+    margin-top: 150px;
+    background-size: contain;
+  }
+
+  .form_paragraph {
+    width: 40%;
+    margin: 0 auto; 
+    text-align: center; 
+  }
+  
+  .contact-title, .form_fields {
+    width: 25%;
+    margin: 0 auto; 
+    text-align: center; 
+  }
+ 
+  /*adding in header*/
+  .header-bar {
+    display: flex;
+    justify-content: flex-end; 
+    background-color: #ffffff; 
+    color: #344563;
+    ; 
+  }
+  
+  .header-bar ul {
+    font-family: Poppins, sans-serif;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 30px;
+
+  }
+
+  .header-bar a {
+    text-decoration: none; 
+    color: inherit;
+  } 
+  .header-bar a:hover {
+    color: rgb(224, 92, 31); 
+  
+}
 }
