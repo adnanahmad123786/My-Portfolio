@@ -367,6 +367,22 @@ body {
   color: #fff;
 }
 
+.button_info12 {
+  padding: 10px;
+  border: 1px solid #6070FF;
+  border-radius: 12px;
+  font-size: 17px;
+  background-color: transparent;
+  color: #396DF2;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.button_info12:hover {
+  background-color: #2152d8;
+  color: #fff;
+}
 
 /*About Myself part*/
 .about_part {
@@ -612,7 +628,7 @@ body {
     text-align: left;
     width: 820px;
     padding-left: 280px;
-  } 
+  }
 
 
   /*work part*/
@@ -694,22 +710,7 @@ body {
     font-size: 16px;
   }
 
-  .button_info1 {
-    padding: 10px;
-    border: none;
-    background-color: #4053FC;
-    border-radius: 12px;
-    font-size: 17px;
-    color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  }
-
-  .button_info1:hover {
-    background-color: #3b49db;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
-  }
+ 
 
   /*about myself part*/
 
